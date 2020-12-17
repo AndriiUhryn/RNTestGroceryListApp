@@ -195,12 +195,14 @@ export const AddEditFeed = (props) => {
             onPress={handleToggleChange}
            />
          </ToggleHolder>
-         <Button
-          size="lg"
-          title={formatMessage(messages.deleteSubmit)}
-          onPress={handleDelete}
-          bgColor="yellow"
-         />
+         {!!item.id && (
+          <Button
+           size="lg"
+           title={formatMessage(messages.deleteSubmit)}
+           onPress={handleDelete}
+           bgColor="yellow"
+          />
+         )}
        </ContentHolder>
      </StyledComponents.ContentBetweenAutoDismiss>
    </StyledComponents.Container>
