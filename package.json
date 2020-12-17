@@ -1,0 +1,62 @@
+{
+  "name": "GroceryList",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "start:ios": "react-native run-ios",
+    "start:ios:debug": "react-native run-ios & open \"rndebugger://set-debugger-loc?host=localhost&port=8081\"",
+    "start:debug": "open \"rndebugger://set-debugger-loc?host=localhost&port=8081\"",
+    "start:android": "react-native run-android",
+    "start:android:debug": "react-native run-android & open \"rndebugger://set-debugger-loc?host=localhost&port=8081\"",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@react-native-community/async-storage": "1.12.1",
+    "@react-native-community/blur": "3.6.0",
+    "@react-native-community/masked-view": "0.1.10",
+    "@react-navigation/bottom-tabs": "5.11.2",
+    "@react-navigation/drawer": "5.11.4",
+    "@react-navigation/native": "5.8.10",
+    "@react-navigation/stack": "5.12.8",
+    "lodash": "4.17.20",
+    "lottie-react-native": "3.5.0",
+    "prop-types": "15.7.2",
+    "react": "16.13.1",
+    "react-intl": "5.10.8",
+    "react-native": "0.63.4",
+    "react-native-flash-message": "0.1.18",
+    "react-native-gesture-handler": "1.9.0",
+    "react-native-reanimated": "1.13.2",
+    "react-native-safe-area-context": "3.1.9",
+    "react-native-screens": "2.16.1",
+    "react-native-size-matters": "0.3.1",
+    "react-native-status-bar-height": "2.6.0",
+    "react-native-wheel-pick": "1.1.0",
+    "react-redux": "7.2.2",
+    "redux": "4.0.5",
+    "redux-devtools-extension": "2.13.8",
+    "redux-persist": "6.0.0",
+    "redux-thunk": "2.3.0",
+    "styled-components": "5.2.1"
+  },
+  "devDependencies": {
+    "@babel/core": "7.12.10",
+    "@babel/plugin-proposal-class-properties": "7.12.1",
+    "@babel/plugin-proposal-decorators": "7.12.1",
+    "@babel/plugin-transform-flow-strip-types": "7.12.10",
+    "@babel/runtime": "7.12.5",
+    "@react-native-community/eslint-config": "2.0.0",
+    "babel-jest": "26.6.3",
+    "eslint": "7.15.0",
+    "jest": "26.6.3",
+    "metro-react-native-babel-preset": "0.64.0",
+    "react-test-renderer": "16.13.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}

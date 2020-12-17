@@ -1,0 +1,22 @@
+{
+  "app.title": "Grocery List",
+
+  "navigation.settings": "Settings",
+
+  "feed.header.title": "Grocery List",
+  "feed.emptyList": "No items yet",
+
+  "addEditFeed.header.add.title": "Add Grocery",
+  "addEditFeed.header.edit.title": "Edit Grocery",
+  "addEditFeed.header.title": "Add Grocery",
+  "addEditFeed.feed.create.success": "Your grocery was added successfully",
+  "addEditFeed.feed.update.success": "Your grocery was updated successfully",
+  "addEditFeed.input.name.label": "Name",
+  "addEditFeed.input.description.label": "Description",
+  "addEditFeed.input.priority.label": "Priority",
+  "addEditFeed.input.status.label": "Need to buy",
+  "addEditFeed.addSubmit": "Add",
+  "addEditFeed.editSubmit": "Update",
+
+  "wheelPicker.submit": "Select"
+}
